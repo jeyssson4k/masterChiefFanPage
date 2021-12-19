@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Master Chief | Halo</title>
+</head>
+<body>
+    
+    <main>
+        <h1>Master Chief</h1>
+        <h2>Halo</h2>
+        <a href="#historia" id="explorar" class="explorar">Explorar</a>
+    </main>
+    <nav>
+        
+        <audio src="./halo2soundtrack.m4a" controls="false" id="pista" loop="true"></audio>
+        <p>Música: <button id="Musica" onclick="reproducirMusica()">OFF</button></p>
+    </nav>
+    <div class="seccion-uno">
+       <h3 id="historia" class="historia">Historia</h3>
+        <p>
+            El Jefe Maestro nació el 7 de marzo del 2511 y pasó la primera parte de su niñez 
+            en el planeta humano Eridanus 2, colonia donde vivió con su familia. 
+            John era alto para su edad en ese entonces, media aproximadamente un pie 
+            más que sus compañeros de la escuela,de igual forma tenía pies, lo que lo 
+            hacía una muestra “genética perfecta” para el proyecto SPARTAN-II. Lo describen 
+            (en la edad de seis años) como un muchacho caucásico con pelo marrón, pecas y un 
+            espacio entre sus dos dientes delanteros…
+        </p> 
+    </div>
+    <div class="seccion-dos">
+       <h3>Galería de imágenes</h3>
+        <div class="carrusel-img" id="carrusel">
+            <img src="./haloProfile01.webp" alt="profile-halo" />
+            <img src="./haloProfile02.webp" alt="profile-halo" />
+            <img src="./haloProfile01.webp" alt="profile-halo" />
+            <img src="./haloProfile02.webp" alt="profile-halo" />
+        </div> 
+    </div>
+    <div class="seccion-tres">
+        <h3>Enviar comentarios</h3>
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Correo Electrónico</label>
+            <input type="email">
+            <label for="">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./scrollSuave.js"></script>
+    <script src="./logic.js"></script>
+</body>
+</html>
