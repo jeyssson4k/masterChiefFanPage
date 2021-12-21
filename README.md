@@ -1,5 +1,5 @@
 # masterChiefFanPage
-Rebuild del primer proyecto (Visita mi canal de YT: youtube.com/c/jeyssson
+Rebuild del primer proyecto (Visita mi canal de YT: https://www.youtube.com/c/Jeyssson
 
 𝘿𝙞𝙨𝙘𝙡𝙖𝙞𝙢𝙚𝙧 
 Halo © Microsoft Corporation. This video was created under Microsoft's "Game Content Usage Rules" using assets from Halo, and it is not endorsed by or affiliated with Microsoft. For more information visit: https://www.xbox.com/en-us/developers/rules
